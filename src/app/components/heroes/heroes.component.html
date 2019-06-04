@@ -1,0 +1,12 @@
+<div>
+  <label>name:
+    <input [(ngModel)]="hero.name" placeholder="name"/>
+  </label>
+</div>
+<br>
+<div>
+  <label><strong>{{hero.name | uppercase}}</strong> info:</label>
+  <p>id: <strong>{{hero.id}}</strong></p>
+  <p>name: <strong>{{hero.name}}</strong></p>
+  <p>birthday: <strong>{{hero.birthday | date}}</strong></p>
+</div>
